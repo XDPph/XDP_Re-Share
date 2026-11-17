@@ -1,8 +1,10 @@
 name: Facebook Page Auto Reshare
+
 on:
   schedule:
     - cron: '0 * * * *'
   workflow_dispatch:
+
 jobs:
   reshare:
     runs-on: ubuntu-24.04
